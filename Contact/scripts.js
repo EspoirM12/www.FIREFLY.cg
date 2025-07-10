@@ -26,7 +26,7 @@
 
     // Redirection vers WhatsApp
     setTimeout(() => {
-      window.open(`https://wa.me/${whatsappNumber}?text=${fullMessage}`, '_blank');
+      window.open(`https://wa.me/242068301796?text=${fullMessage}`, '_blank');
     }, 1000); // délai de 1 seconde pour montrer la confirmation
   });
 
