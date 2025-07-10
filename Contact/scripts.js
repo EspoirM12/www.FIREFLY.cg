@@ -19,14 +19,14 @@
     const message = document.getElementById("message").value.trim();
 
     const fullMessage = `Nom: ${name}%0ANuméro: ${phone}%0AMessage: ${message}`;
-    const whatsappNumber = "+242068301796";
+    const whatsappNumber = "242068301796";
 
     // Affiche le message de confirmation
     document.getElementById("confirmation-message").style.display = "block";
 
-    // Redirection vers WhatsApp
+   // Redirection vers WhatsApp
     setTimeout(() => {
-      window.open(`https://wa.me/242068301796?text=${fullMessage}`, '_blank');
+      window.open(`https://wa.me/${whatsappNumber}?text=${fullMessage}`, '_blank');
     }, 1000); // délai de 1 seconde pour montrer la confirmation
   });
 
